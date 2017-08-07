@@ -1,0 +1,223 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<link rel="stylesheet" type="text/css" href="style.css" />
+
+	<meta name="description" content="Signature strengths"/>
+	<meta name="keywords" content="Strengths"/>
+	<meta http-equiv="Content-Type" content="text/html;charset=ISO-8859-1"/>
+	
+	<title>What are your signature strengths?</title>
+	
+	<link href="/style.css" rel="stylesheet" type="text/css"/>
+
+	<script type="text/javascript">
+	
+	var currentQuestion = 1
+	
+	var questions = new Array(" ", "I am always curious about the world", "I am easily bored", "I am thrilled when I learn something new", "I never go out of my way to visit museums", "When the topic called for it, I can be a highly rational thinker", "I tend to make snap judgements", "I like to think of new ways to do things", "Most of my friends are more imaginative than I am", "No matter what the social situation, I am able to fit in", "I am not very good at sensing what other people are feeling", "I am always able to look at things and see the big picture", "Others rarely come to me for advice", "I have taken frequent stands in the face of strong opposition", "Pain and disappointment often get the better of me", "I always finish what I start", "I get sidetracked when I work", "I always keep my promises", "My friends never tell me I’m down to earth", "I voluntarily helped a neighbour last month", "I am rarely as excited about the good fortune of others as I am about my own", "There are people in my life who care as much about my feelings and well-being as they do about their own", "I have trouble accepting love from others", "I work best when I am part of a group", "I hesitate to sacrifice my self-interest for the benefit of groups I am in", "I treat all people equally, regardless of who they might be", "If I do not like someone, it is difficult for me to treat him or her fairly", "I can always get people to do things together without nagging them", "I am not very good at planning group activities", "I can control my emotions", "I can rarely stay on a diet", "I avoid activities that are physically dangerous", "I sometimes make poor choices in friendships and relationships", "I change the subject when people pay me compliments", "I often brag about my accomplishments", "In the last month, I have been thrilled by excellence in music, art, drama, film, sport, science or mathematics", "I have not created anything of beauty in the last year", "I always say thank you, even for little things", "I rarely stop and count my blessings", "I always look on bright side", "I rarely have a well thought out plan for what I want to do", "My life has a strong purpose", "I do not have a calling in life", "I always let bygones be bygones", "I always try to get even", "I always mix work and play as much as possible", "I rarely say funny things", "I throw myself into everything I do", "I mope a lot");
+	var responses = new Array(-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1);	
+	var myStrengths = new Array(-1,-1,-1,-1,-1);
+	var strengths = new Array(24);
+
+	for (i=0;i<24;i++) {
+		strengths[i] = new Array(2)
+		strengths[i][0] = i
+		strengths[i][1] = -1
+	}
+	
+	var strengthNames = new Array("Curiosity", "Love of learning", "Critical Thinking", " Originality", "Social Intelligence", "Perspective", "Bravery", "Dedication", "Honesty", "Kindness", "Loving", "Teamwork", "Fairness", "Leadership", "Self Control", "Carefulness", "Modesty", "Appreciation of Culture", "Gratitude", "Optimism", "Spirituality", "Forgiveness", " Humour", "Enthusiasm") 
+	var strengthDescriptions = new Array("You are curious about everything. You are always asking questions, and you find all subjects and topics fascinating. You like exploration and discovery.", "You love learning new things, whether in a class or on your own. You have always loved school, reading, and museums-anywhere and everywhere there is an opportunity to learn.", "Thinking things through and examining them from all sides are important aspects of who you are. You do not jump to conclusions, and you rely only on solid evidence to make your decisions. You are able to change your mind.", "Thinking of new ways to do things is a crucial part of who you are. You are never content with doing something the conventional way if a better way is possible.", "You are aware of the motives and feelings of other people. You know what to do to fit in to different social situations, and you know what to do to put others at ease.", "Although you may not think of yourself as wise, your friends hold this view of you. They value your advice on matters. You have a way of looking at the world that makes sense to others and to yourself. ", " You are a courageous person who does not shrink from threat, challenge, difficulty, or pain. You speak up for what is right even if there is opposition. You act on your convictions." ,"You work hard to finish what you start. No matter the project, you complete it in timely fashion. You do not get distracted when you work, and you take satisfaction in completing tasks.", "You are an honest person, not only by speaking the truth, but by living your life in a genuine and authentic way. You are down to earth and without pretense.","You are kind and generous to others, and you are never too busy to do a favour. You enjoy doing good deeds for others, even if you do not know them well. ", "You value close relations with others, in particular those in which there is sharing and caring. The people to whom you feel most close are the same people who feel most close to you.", "You excel as a member of a group. You are a loyal and dedicated teammate, you always do your share, and you work hard for the success of your group.", "Treating all people fairly is one of your abiding principles. You do not let your personal feelings bias your decisions about other people. You give everyone a chance.", "You excel at the tasks of leadership: encouraging a group to get things done and preserving harmony within the group by making everyone feel included. You do a good job organizing activities and seeing that they happen.", "You self-consciously regulate what you feel and what you do. You are a disciplined person. You are in control of your appetites and your emotions, not vice versa.", " You are a careful person. You do not say or do things that you might later regret.", " You do not seek the spotlight, preferring to let your accomplishments speak for themselves. Others recognize and value your modesty.", "You notice and appreciate beauty, excellence, and/or skilled performance in all domains of life, from nature to art to mathematics to science to everyday experience.", " You are aware of the good things that happen to you, and you never take them for granted. Your friends and family members know that you are a grateful person because you always take the time to express your thanks.", " You expect the best in the future, and you work to achieve it. You believe that the future is something that you can control.", "You have strong and coherent beliefs about the higher purpose and meaning of the universe. You know where you fit in the larger scheme. Your beliefs shape your actions and are a source of comfort to you.", "You forgive those who have done you wrong. You always give people a second chance. Your guiding principle is mercy and not revenge.", " You like to laugh and tease. Bringing smiles to other people is important to you. You try to see the light side of all situations.", "Regardless of what you do, you approach it with excitement and energy. You never do anything halfway or half-heartedly. For you, life is an adventure."); 
+
+	function nextButton(form) {
+		saveAnswer(form);
+		currentQuestion++;
+		changeQuestion(form);
+		form.next.disabled = true;
+	};
+	
+	function previousButton(form) {
+		saveAnswer(form);
+		currentQuestion--;
+		changeQuestion(form);
+	};
+	
+	function unGreyNext(form) {
+		form.next.disabled = false;	
+	}
+	
+	
+	function saveAnswer(form) {
+		for (count = 0; count < 5; count++) {
+			if (form.options[count].checked) {
+				responses[currentQuestion] = count;
+			};
+		};
+	};
+	
+	function changeQuestion(form) {
+		var currentResponse = responses[currentQuestion];
+		
+		if(currentResponse===-1) {
+			for(i=0;i<5;i++) {
+				form.options[i].checked = false 
+			};
+		} else {
+			form.options[currentResponse].checked = true;
+		};
+		
+		if (currentQuestion===49) {
+			submit();
+		} else {
+	
+			
+				document.getElementById("question").innerHTML=currentQuestion + ". " + questions[currentQuestion];	
+		
+		
+		
+				if (currentQuestion===48) {
+					form.next.innerHTML="Submit";
+				} else if(currentQuestion===47) {
+					form.next.innerHTML="Next";
+				} else if(currentQuestion <=1) {
+					form.previous.disabled = true;
+				} else if (currentQuestion === 2) {
+					form.previous.disabled = false;
+				}
+			
+		
+		}
+	};
+	
+	function submit() {
+		var strengthNum = 0 ;
+		var myStrNum = 0;
+		
+		document.getElementById("webform").style.display="none";
+		
+		for(i=0; i<48; i=i+2) {
+			strengths[strengthNum][1] = (5 - responses[i+1]) + (responses[i+2] + 1);
+			
+			strengthNum++;
+				
+		};
+		
+		//web.archive.org/web/20141024214203/http://sort/
+		strengths.sort(mySorting);
+		
+		function mySorting(a,b) {
+			a = a[1];
+			b = b[1];
+			return a == b ? 0 : (a < b ? 1 : -1)
+		};
+		
+		for(i=0; i<5; i++) {
+			if(strengths[i][1] != -1) {
+			var strengthNo = strengths[i][0];
+			
+			document.getElementById('strTitle' + i).innerHTML="Strength " + (i+1) + ". " + strengthNames[strengthNo];
+			document.getElementById('strDesc' + i).innerHTML=strengthDescriptions[strengthNo];
+			
+			document.getElementById('strHiddenTitle' + i).value="Strength " + (i+1) + ". " + strengthNames[strengthNo];
+			document.getElementById('strHiddenDesc' + i).value=strengthDescriptions[strengthNo];
+			
+			}
+		}
+		
+		document.getElementById("results").style.display="block";
+		document.getElementById("emailButton").style.display="block";
+		document.getElementById("emailBox").style.display="block";
+	}
+	
+	function atLeastOneRadio() {
+    		return ($$('input[type=radio]:checked').size() > 0);
+	}
+
+	</script>
+
+</head>
+ 
+<div id="header" class="container">
+			<div id="logo">
+				<h1>Signature strengths</h1>
+				<p>Complete below to find your strengths</p>
+			</div>
+
+		</div>
+		
+
+
+	<!-- Radio buttons here /-->
+	<div id="page">
+			<div id="content">
+				<div class="post">
+					<div id="webform">
+	<form name="sigstrengths" action="" method="get">
+	
+		<h2 id="question">
+			1. I am always curious about the world
+		</h2>
+		<p>
+		<input type="radio" name="options" value="radio1" onclick="unGreyNext(this.form)">Very much like me</br>
+		<input type="radio" name="options" value="radio2" onclick="unGreyNext(this.form)">Like me</br>
+		<input type="radio" name="options" value="radio3" onclick="unGreyNext(this.form)">Neutral</br>
+		<input type="radio" name="options" value="radio4" onclick="unGreyNext(this.form)">Unlike me</br>
+		<input type="radio" name="options" value="radio5" onclick="unGreyNext(this.form)">Very much unlike me</br>
+		</p>
+		<p></br></p>
+		<button type="button" accesskey="[" name="previous" id="previousBtn" onclick="previousButton(this.form)" disabled="true">Previous</button>
+		<button type="button" accesskey="]" name="next" id="nextBtn" onclick="nextButton(this.form)" disabled="true">Next</button>
+		
+	</form>
+	</div>
+	
+	<div id="results" style="display: none">
+	<h1>Your results!</h1>
+	<h4>Think about how you can use these strengths in your job search and in your life in general</h4>
+	<h4> Try to find a new way to use them then everyday</h4>
+	<h2 id="strTitle0"></h2>
+	<p id="strDesc0"></p>
+	<h2 id="strTitle1"></h2>
+	<p id="strDesc1"></p>
+	<h2 id="strTitle2"></h2>
+	<p id="strDesc2"></p>
+	<h2 id="strTitle3"></h2>
+	<p id="strDesc3"></p>
+	<h2 id="strTitle4"></h2>
+	<p id="strDesc4"></p>
+	
+	
+	
+	
+		<p><b>Fill in your email address address below to have your strengths emailed to you. You may want to discuss these with your advisor at your next meeting.</b></p>
+
+	<div id="hiddenResults">
+	<form action="strengths.php" method="post">
+	<input id="strHiddenTitle0" name="Title1" type="text" id="name" size="32" style="display: none">
+	<input id="strHiddenDesc0" name="Desc1" type="text" id="name" size="32" style="display: none">
+	<input id="strHiddenTitle1" name="Title2" type="text" id="name" size="32" style="display: none">
+	<input id="strHiddenDesc1" name="Desc2" type="text" id="name" size="32" style="display: none">
+	<input id="strHiddenTitle2" name="Title3" type="text" id="name" size="32" style="display: none">
+	<input id="strHiddenDesc2" name="Desc3" type="text" id="name" size="32" style="display: none">
+	<input id="strHiddenTitle3" name="Title4" type="text" id="name" size="32" style="display: none">
+	<input id="strHiddenDesc3" name="Desc4" type="text" id="name" size="32" style="display: none">
+	<input id="strHiddenTitle4" name="Title5" type="text" id="name" size="32" style="display: none">
+	<input id="strHiddenDesc4" name="Desc5" type="text" id="name" size="32" style="display: none">
+	
+	<input type="text" id="emailBox" name="emailAddress" style="display: none">
+	<input type="submit" id="emailButton" name="Submit" value="Email me my results!" style="display: none">
+
+	
+	</form>
+	</div>
+	</div>
+	</div>
+	</div>
+	
+ 
+<div>
+<p> Please complete all 48 questions. </br> This will take about 10 minutes to complete</p>
+</div>
+</body>
+
+</html>
