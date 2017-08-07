@@ -1,0 +1,224 @@
+body {
+	margin-top: 100px;
+	padding: 0px;
+	background: #FFFFFF url(/web/20131214091102im_/http://www.behaviourlibrary.com/images/img02.jpg) repeat-x left top;
+	font-family: 'Arvo', serif;
+	font-size: 22px;
+}
+
+h1, h2, h3 {
+	margin: 0;
+	padding: 0;
+	font-family: 'Arvo', serif;
+	font-weight: normal;
+	color: #148DFB;
+}
+
+h1 {
+	font-size: 2em;
+}
+
+h2 {
+	font-size: 1.4em;
+}
+
+h3 {
+	font-size: 1.6em;
+}
+
+p, ul, ol {
+	margin: 15px;
+	line-height: 150%;
+}
+
+ul, ol {
+}
+
+a {
+	text-decoration: none;
+	color: #148DFB;
+}
+
+#nextBtn {
+	 position:relative; 
+	 display:block; 
+	 float:right;
+}
+
+a:hover {
+}
+
+#wrapper {
+}
+
+#wrapper2 {
+}
+
+/* Header */
+
+#header {
+	overflow: hidden;
+	width: 700px;
+	height: 100px;
+	margin: 0 auto;
+	padding: 0px 0px;
+	background: url(/web/20131214091102im_/http://www.behaviourlibrary.com/images/img01.jpg) no-repeat left top;
+}
+
+/* Logo */
+
+#logo {
+	float: left;
+	width: 320px;
+	margin: 0px;
+	padding: 0px 0px 0px 30px;
+	color: #FFFFFF;
+}
+
+#logo h1, #logo p {
+}
+
+#logo h1 {
+	display: block;
+	padding: 10px 0px 0px 0px;
+	letter-spacing: -3px;
+	text-align: center;
+	text-transform: lowercase;
+	font-size: 2.2em;
+}
+
+#logo h1{
+	font-family: 'Arvo', serif;
+	color: #FFFFFF;
+}
+
+#logo p {
+	margin-top: 0px;
+	padding: 0px 0 0 0px;
+	letter-spacing: 1px;
+	text-align: center;
+	font-family: 'Arvo', serif;
+	font-size: 16px;
+	color: #FFFFFF;
+}
+
+#logo p a {
+	color: #FFFFFF;
+}
+
+#logo a {
+	border: none;
+	background: none;
+	text-decoration: none;
+	color: #000000;
+}
+
+/* Splash */
+
+#splash {
+	width: 640px;
+	height: 300px;
+	margin: 0px auto;
+}
+
+/* Page */
+
+#page {
+	width: 640px;
+	margin: 0px auto;
+	padding: 30px 0px;
+}
+
+/* Content */
+
+#content {
+	float: left;
+	width: 640px;
+	padding: 0px 0px 0px 0px;
+}
+
+button {
+	font-size:18px;
+}
+
+.post {
+	overflow: hidden;
+	margin-bottom: 20px;
+	border-bottom: 1px solid #CCCCCC;
+}
+
+.post .title {
+	margin: 0px;
+	padding: 7px 0px 0px 0px;
+	letter-spacing: -1px;
+}
+
+.post .title a {
+	border: none;
+	letter-spacing: 1px;
+	letter-spacing: -2px;
+	text-align: left;
+	text-transform: uppercase;
+	font-size: 26px;
+	font-weight: normal;
+	color: #148DFB;
+}
+
+.post .meta {
+	margin-bottom: 30px;
+	padding: 0px;
+	letter-spacing: 1px;
+	text-align: left;
+	text-transform: uppercase;
+	font-size: 11px;
+	font-weight: normal;
+}
+
+.post .meta .date {
+	float: left;
+}
+
+.post .meta .posted {
+	float: right;
+}
+
+.post .meta a {
+	color: #148DFB;
+}
+
+.post .entry {
+	padding: 0px 0px 30px 0px;
+	padding-bottom: 20px;
+	text-align: justify;
+}
+
+.links {
+	float: right;
+	margin: 20px 0px 30px 0px;
+	text-align: right;
+	text-transform: uppercase;
+	font-size: 12px;
+	font-weight: normal;
+}
+
+.more {
+	display: block;
+	float: left;
+	padding: 0px 0px 0px 0px;
+	margin-right: 30px;
+}
+
+.comments {
+	display: block;
+	float: left;
+	padding: 0px 0px 0px 0px;
+}
+
+/*
+     FILE ARCHIVED ON 09:11:02 Dec 14, 2013 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 13:24:24 Aug 07, 2017.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
